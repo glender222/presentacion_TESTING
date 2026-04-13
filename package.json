@@ -1,5 +1,15 @@
 {
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --format pdf",
+    "export-pptx": "slidev export slides.md --format pptx"
+  },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.14.2",
+    "playwright-chromium": "^1.59.1"
   }
 }
