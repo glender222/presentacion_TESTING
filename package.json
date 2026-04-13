@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "slidev slides.md",
     "build": "slidev build slides.md",
@@ -6,9 +7,11 @@
     "export-pptx": "slidev export slides.md --format pptx"
   },
   "dependencies": {
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0"
   },
   "devDependencies": {
+    "@oxc-parser/binding-win32-x64-msvc": "^0.124.0",
     "@slidev/cli": "^52.14.2",
     "playwright-chromium": "^1.59.1"
   }
